@@ -95,7 +95,8 @@ header{
             color: black;
 
             &:hover {
-                background-color: lightblue;
+            background-color:lighten($primary, 70%);
+                
             }
             &.active {
                 border-bottom: 5px  solid $primary;
