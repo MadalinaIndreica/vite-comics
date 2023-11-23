@@ -54,6 +54,7 @@ export default {
 
 <template>
     <header>
+      
         <div class="logo">
             <img src="../assets/img/dc-logo.png" alt="logo">
         </div>
@@ -63,6 +64,7 @@ export default {
             </li>
         
         </ul>
+      
     </header>
 
   
@@ -75,6 +77,10 @@ header{
     @include flex();
     justify-content: space-between;
     padding: 2rem;
+    .container {
+    width: 80%;
+    margin: 0 auto;
+    }
    img {
     width: 70px;
    }

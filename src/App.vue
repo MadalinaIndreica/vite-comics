@@ -18,17 +18,22 @@ export default {
   <div class="container">
     <AppHeader/>
   </div>
+  
     <AppMain />
+  
     <AppFooter />
-    
+  
+
   
 </template>
 
 <style lang="scss">
 @use "./style/general.scss";
-.container {
+
+.container{
   width: 80%;
   margin: 0 auto;
 }
+
 
 </style>
