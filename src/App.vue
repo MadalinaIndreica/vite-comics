@@ -8,8 +8,7 @@ export default {
   components: {
     AppHeader,
     AppMain,
-    AppFooter,
-    AppHeader
+    AppFooter
 },
 };
 
@@ -18,9 +17,10 @@ export default {
 <template>
   <div class="container">
     <AppHeader/>
+  </div>
     <AppMain />
     <AppFooter />
-  </div>
+    
   
 </template>
 
