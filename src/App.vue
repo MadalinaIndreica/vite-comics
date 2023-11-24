@@ -1,13 +1,14 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
-import AppMain from "./components/AppMain.vue";
+import AppIcons from "./components/AppIcons.vue";
 import AppFooter from "./components/AppFooter.vue";
-
+import AppJumbotron from "./components/AppJumbotron.vue";
 
 export default {
   components: {
     AppHeader,
-    AppMain,
+    AppJumbotron,
+    AppIcons,
     AppFooter
 },
 };
@@ -18,8 +19,8 @@ export default {
   <div class="container">
     <AppHeader/>
   </div>
-  
-    <AppMain />
+    <AppJumbotron/>
+    <AppIcons />
   
     <AppFooter />
   
