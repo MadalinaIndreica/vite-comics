@@ -3,11 +3,13 @@ import AppHeader from "./components/AppHeader.vue";
 import AppIcons from "./components/AppIcons.vue";
 import AppFooter from "./components/AppFooter.vue";
 import AppJumbotron from "./components/AppJumbotron.vue";
+import CurrentSeries from "./components/CurrentSeries.vue"
 
 export default {
   components: {
     AppHeader,
     AppJumbotron,
+    CurrentSeries,
     AppIcons,
     AppFooter
 },
@@ -20,6 +22,7 @@ export default {
     <AppHeader/>
   </div>
     <AppJumbotron/>
+    <CurrentSeries/>
     <AppIcons />
   
     <AppFooter />
