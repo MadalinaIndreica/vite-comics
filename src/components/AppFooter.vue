@@ -102,7 +102,7 @@ footer {
         }
 
         h4 {
-            text-align: center;
+            text-align: right;
         }
 
         ul {

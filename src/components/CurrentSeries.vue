@@ -84,7 +84,7 @@ export default {
 </script>
 
 <template>
-    <section>
+    <section class="col-section">
         <div class="container">
             <div class="row">
                 <div class="col" v-for="(book, index) in books" :key="index">
@@ -98,9 +98,18 @@ export default {
 <style lang="scss" scoped >
 @use "../style/partials/variables" as *;
 @use "../style/partials/mixin" as *;
+
+.col-section {
+    min-height: 250px;
+    background-color:rgb(28 28 28);
+    font-family:monospace;
+   padding-top: 2rem;
+}
+
 .row {
     @include flex();
    flex-wrap: wrap;
+   align-items: baseline;
     .col {
       width: calc(100% / 6);
       padding: 5px;

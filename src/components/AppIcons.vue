@@ -43,20 +43,26 @@ export default {
 
 .blue-section {
     background-color: $primary;
+    color: white;
     .main-icons {
         padding: 3rem;
         @include  flex();
         justify-content: space-between;
         div {
             @include  flex();
+            font-family : monospace;
 
         }
        .normal {
         width: 50px;
+        margin-right: 15px;
+        margin-left: 10px;
             
        }
        .smaller {
                 width: 30px;
+                margin-right: 15px;
+                margin-left: 10px;
             }
        
     }

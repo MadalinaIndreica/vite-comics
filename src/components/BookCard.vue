@@ -32,7 +32,7 @@ export default{
     }
 
     h3 {
-        text-align: center;
-        color: rgb(0, 0, 0);
+        text-align: left;
+        color: white;
     }
 </style>
